@@ -27,7 +27,7 @@ class Bird(Animal):
 
 
 if __name__ == "__main__":
-    animals = [Dog("Burek"), Cat("Mruczek"), Bird("Tweety")]
+    animals = [Dog("Burek"), Cat("Mruczek"), Bird("Tweety"), Fish("Nemo")]
     for a in animals:
         print(f"{a.name}: {a.speak()}")
 
