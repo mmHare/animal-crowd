@@ -18,9 +18,16 @@ class Fish(Animal):
     def speak(self):
         return "Blub!"
 
+        return "Meow!"
+    
+class Bird(Animal):
+    def speak(self):
+        return "Tweet!"
+
+
 
 if __name__ == "__main__":
-    animals = [Dog("Burek"), Cat("Mruczek")]
+    animals = [Dog("Burek"), Cat("Mruczek"), Bird("Tweety")]
     for a in animals:
         print(f"{a.name}: {a.speak()}")
 
