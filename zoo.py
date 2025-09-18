@@ -17,8 +17,6 @@ class Cat(Animal):
 class Fish(Animal):
     def speak(self):
         return "Blub!"
-
-        return "Meow!"
     
 class Bird(Animal):
     def speak(self):
