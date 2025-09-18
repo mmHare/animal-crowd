@@ -12,8 +12,12 @@ class Dog(Animal):
     
 class Cat(Animal):
     def speak(self):
-        return "Meow!"
+        return "Miau!"
     
+class Fish(Animal):
+    def speak(self):
+        return "Blub!"
+
 
 if __name__ == "__main__":
     animals = [Dog("Burek"), Cat("Mruczek")]
