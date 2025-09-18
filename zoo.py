@@ -22,6 +22,9 @@ class Bird(Animal):
     def speak(self):
         return "Tweet!"
 
+class Fox(Animal):
+    def speak(self):
+        return "What does the fox say?"
 
 
 if __name__ == "__main__":
